@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
-
+import ColorSelector from './ColorSelector';
+import GridSize from './GridSize';
+import Grid from './Grid';
+import useBoxes from './hooks/useBoxes';
 function App() {
+  const { color, changeColorHandler, gridSize, gridSizeHandler } = useBoxes();
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ColorSelector
+        colorSelected={color}
+        changeColorHandler={changeColorHandler}
+      />
+      <GridSize gridSize={gridSize} gridSizeHandler={gridSizeHandler} />
+      <Grid color={color} gridSize={gridSize} />
     </div>
   );
 }
