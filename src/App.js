@@ -1,4 +1,3 @@
-import './App.css';
 import ColorSelector from './ColorSelector';
 import GridSize from './GridSize';
 import Grid from './Grid';
