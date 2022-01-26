@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/grid-nxn/static/css/main.073c9b0a.css",
+    "main.js": "/grid-nxn/static/js/main.f9c687ce.js",
+    "static/js/787.b9ae4b52.chunk.js": "/grid-nxn/static/js/787.b9ae4b52.chunk.js",
+    "index.html": "/grid-nxn/index.html",
+    "main.073c9b0a.css.map": "/grid-nxn/static/css/main.073c9b0a.css.map",
+    "main.f9c687ce.js.map": "/grid-nxn/static/js/main.f9c687ce.js.map",
+    "787.b9ae4b52.chunk.js.map": "/grid-nxn/static/js/787.b9ae4b52.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.f9c687ce.js"
+  ]
+}
